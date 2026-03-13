@@ -10,5 +10,4 @@ export const ROLES = [
   'Game Developer (Unity / Unreal)',
   'Backend Engineer',
   'React Specialist',
-  'Problem Solver',
 ]

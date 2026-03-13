@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { EXPERIENCE } from '../../registry'
+import { EXPERIENCE } from '../registry/index'
 import SectionWrapper from '../ui/SectionWrapper'
 import SectionHeader from '../ui/SectionHeader'
 import TiltCard from '../ui/TiltCard'
