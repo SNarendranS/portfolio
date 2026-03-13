@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme, THEMES } from '../../context/ThemeContext'
-import { NAV_LINKS } from '../../data/portfolioData'
+import { NAV_LINKS } from '../registry/index'
 
 export default function Navbar() {
   const { theme, themeKey, setThemeKey } = useTheme()

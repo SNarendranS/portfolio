@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { EXPERIENCE } from '../../data/portfolioData'
+import { EXPERIENCE } from '../../registry'
 import SectionWrapper from '../ui/SectionWrapper'
 import SectionHeader from '../ui/SectionHeader'
 import TiltCard from '../ui/TiltCard'
@@ -37,7 +37,7 @@ export default function ExperienceSection() {
                 <motion.div
                   animate={{ boxShadow: [`0 0 0 0 ${theme.accentGlow}`, `0 0 0 8px transparent`] }}
                   transition={{ duration: 1.8, repeat: Infinity, delay: i * 0.3 }}
-                  className="absolute -left-[46px] top-7 w-4 h-4 rounded-full"
+                  className="absolute -left-11.5 top-7 w-4 h-4 rounded-full"
                   style={{ background: theme.accent }}
                 />
 

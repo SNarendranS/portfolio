@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { PROJECTS } from '../../data/portfolioData'
+import { PROJECTS } from '../../registry'
 import SectionWrapper from '../ui/SectionWrapper'
 import SectionHeader from '../ui/SectionHeader'
 import TiltCard from '../ui/TiltCard'

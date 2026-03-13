@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { CONTACT_LINKS } from '../../data/portfolioData'
+import { CONTACT_LINKS } from '../registry/index'
 import SectionWrapper from '../ui/SectionWrapper'
 import SectionHeader from '../ui/SectionHeader'
 import TiltCard from '../ui/TiltCard'
@@ -47,7 +47,7 @@ export default function ContactSection() {
             <motion.div
               whileHover={{ scale: 1.03, boxShadow: `0 20px 50px ${theme.accentGlow}` }}
               whileTap={{ scale: 0.97 }}
-              className="p-6 rounded-xl flex flex-col items-center justify-center gap-2 cursor-pointer h-full min-h-[96px]"
+              className="p-6 rounded-xl flex flex-col items-center justify-center gap-2 cursor-pointer h-full min-h-24"
               style={{ background: theme.accent }}
             >
               <a href="#" className="no-underline text-center">
