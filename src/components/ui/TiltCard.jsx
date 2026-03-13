@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
 
-export default function TiltCard({ children, className = '' }) {
+export default function TiltCard({ children, className = '', onClick }) {
   const { theme } = useTheme()
   const ref = useRef(null)
 
@@ -39,7 +39,8 @@ export default function TiltCard({ children, className = '' }) {
       }}
       whileHover={{ scale: 1.02, boxShadow: `0 20px 50px ${theme.accentGlow}` }}
       transition={{ scale: { duration: 0.2 } }}
-      className={`border rounded-xl backdrop-blur-xl cursor-default ${theme.surface} ${theme.border} ${className}`}
+      onClick={onClick}
+      className={`border rounded-xl backdrop-blur-xl ${onClick ? 'cursor-pointer' : 'cursor-default'} ${theme.surface} ${theme.border} ${className}`}
     >
       {children}
     </motion.div>

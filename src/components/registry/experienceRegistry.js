@@ -1,11 +1,12 @@
 /**
  * EXPERIENCE REGISTRY
  * ─────────────────────────────────────────────────────────────
- * Each entry = one timeline card. Most recent first.
+ * `id` is used by projectsRegistry linkedTo to map projects.
  * ─────────────────────────────────────────────────────────────
  */
 export const EXPERIENCE = [
   {
+    id: 'metayb',
     role: 'Full Stack Developer',
     company: 'Metayb',
     period: 'Oct 2025 – Present',
@@ -20,6 +21,7 @@ export const EXPERIENCE = [
     tags: ['React', 'Strapi', 'PostgreSQL', 'Node.js'],
   },
   {
+    id: 'eagle-software',
     role: 'Database Administrator & C# Developer',
     company: 'Eagle Software',
     period: 'Dec 2024 – Jul 2025',
@@ -34,6 +36,7 @@ export const EXPERIENCE = [
     tags: ['C#', 'SQL Server', 'WPF', 'WinForms'],
   },
   {
+    id: 'trillion-thoughts',
     role: 'Software & Game Developer Intern',
     company: 'Trillion Thoughts Technologies',
     period: 'Jun 2024 – Oct 2024',
@@ -47,6 +50,7 @@ export const EXPERIENCE = [
     tags: ['Unreal Engine', 'Unity', 'React.js', 'VR'],
   },
   {
+    id: 'teachsub',
     role: 'Software Intern',
     company: 'TeachSub Technologies',
     period: 'May 2022 – Jun 2022',
