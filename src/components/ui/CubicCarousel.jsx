@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { CARDS } from '../registry/index'
+import { CARDS } from '../../registry/index'
 import ExpandModal from './ExpandModal'
 
 // ── Cubic rotation math ───────────────────────────────────────────────────────

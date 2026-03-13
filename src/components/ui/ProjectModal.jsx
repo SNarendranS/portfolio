@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { EXPERIENCE,EDUCATION } from '../registry/index'
+import { EXPERIENCE,EDUCATION } from '../../registry/index'
 import Tag from './Tag'
 
 function LinkButton({ href, label, icon, accent, accentGlow }) {

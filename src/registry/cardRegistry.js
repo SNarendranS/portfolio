@@ -1,5 +1,5 @@
-import Avatar3D from '../../components/three/Avatar3D'
-import SpaceShooter from '../../components/three/SpaceShooter'
+import Avatar3D from '../components/three/Avatar3D'
+import SpaceShooter from '../components/three/SpaceShooter'
 
 /**
  * CARD REGISTRY

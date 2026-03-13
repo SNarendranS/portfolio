@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { PROJECTS } from '../registry/index'
+import { PROJECTS } from '../../registry/index'
 import CertificateCarousel from './CertificateCarousel'
 
 function LinkedProjects({ educationId, theme }) {

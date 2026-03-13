@@ -6,6 +6,7 @@
  * ─────────────────────────────────────────────────────────────
  */
 
+export { ASSETS }         from './assetsRegistry'
 export { CARDS }          from './cardRegistry'
 export { NAV_LINKS }      from './navRegistry'
 export { SKILLS }         from './skillsRegistry'

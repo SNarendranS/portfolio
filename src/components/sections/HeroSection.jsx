@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { useTheme } from '../../context/ThemeContext'
-import { ROLES } from '../registry/index'
+import { ROLES } from '../../registry'
 import GlitchText from '../ui/GlitchText'
 import CubicCarousel from '../ui/CubicCarousel'
 import { staggerContainer, fadeUp } from '../../hooks/motionVariants'

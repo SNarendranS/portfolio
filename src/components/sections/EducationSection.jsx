@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme } from '../../context/ThemeContext'
-import { EDUCATION } from '../registry/index'
+import { EDUCATION } from '../../registry'
 import SectionWrapper from '../ui/SectionWrapper'
 import SectionHeader from '../ui/SectionHeader'
 import TiltCard from '../ui/TiltCard'
